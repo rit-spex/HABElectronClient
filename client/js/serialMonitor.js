@@ -1,4 +1,4 @@
-let SerialPort = require('serial-worker');
+let SerialPort = require('serialport');
 let io = require('socket.io-client');
 
 var pauseFlag = false;
